@@ -1,0 +1,210 @@
+body {
+    background-color: rgb(20, 19, 19);
+    background-image: url("image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+/* MENU */
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_home a{
+    color: beige;
+}
+
+.menu_aboutMe a{
+    color: beige;
+}
+
+.menu_myProjects a{
+    color: beige;
+}
+
+.menu_aboutMe {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* APP MAIN MENU */
+.smartphone_menu_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+}
+
+#smartphone_menu_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_go4lunch_img {
+    width: 93.5%;
+    height: 82.8%;
+    position: absolute;
+    top: 12.5%;
+    left: 10%;
+    z-index: -1;
+}
+
+#go4lunch_img {
+    width: 100%;
+    height: 100%;
+}
+
+/* APP LOGIN */
+.smartphone_login_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin-top: 150px;
+}
+
+#smartphone_login_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_login_gif {
+    width: 98.5%;
+    height: 86%;
+    position: absolute;
+    top: 10.7%;
+    left: 8%;
+    z-index: -1;
+}
+
+#login_gif {
+    width: 100%;
+    height: 100%;
+}
+
+/* APP SCREEN */
+.smartphone_screen_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin-top: 150px;
+}
+
+#smartphone_screen_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_screen_gif {
+    width: 98.5%;
+    height: 86%;
+    position: absolute;
+    top: 10.7%;
+    left: 8%;
+    z-index: -1;
+}
+
+#screen_gif {
+    width: 100%;
+    height: 100%;
+}
+
+/* APP SEARCH */
+.smartphone_search_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin-top: 150px;
+}
+
+#smartphone_search_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_search_gif {
+    width: 98.5%;
+    height: 86%;
+    position: absolute;
+    top: 10.7%;
+    left: 8%;
+    z-index: -1;
+}
+
+#search_gif {
+    width: 100%;
+    height: 100%;
+}
+
+/* APP DETAILS */
+.smartphone_details_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin-top: 150px;
+}
+
+#smartphone_details_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_details_gif {
+    width: 98.5%;
+    height: 86%;
+    position: absolute;
+    top: 10.7%;
+    left: 8%;
+    z-index: -1;
+}
+
+#details_gif {
+    width: 100%;
+    height: 100%;
+}
+
+/* APP FILTERS */
+.smartphone_filters_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin-top: 150px;
+}
+
+#smartphone_filters_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_filters_gif {
+    width: 98.5%;
+    height: 86%;
+    position: absolute;
+    top: 10.7%;
+    left: 8%;
+    z-index: -1;
+}
+
+#filters_gif {
+    width: 100%;
+    height: 100%;
+}
