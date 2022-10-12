@@ -1,0 +1,33 @@
+#smartphone_border {
+    width: 350px;
+    height: 600px;
+}
+
+#go_4_lunch_img {
+    position: absolute;
+    left: 140px;
+    top: 170px;
+    width: 60px;
+    height: 60px;
+
+}
+
+#go_4_lunch_title {
+    position: absolute;
+    left: 140px;
+    top: 230px;
+}
+
+#real_estate_manager_img {
+    position: absolute;
+    left: 250px;
+    top: 170px;
+    width: 60px;
+    height: 60px;
+}
+
+#real_estate_title {
+    position: absolute;
+    left: 250px;
+    top: 230px;
+}

@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(20, 19, 19);
+    background-image: url("image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_home a{
+    color: beige;
+}
+
+.menu_aboutMe a{
+    color: beige;
+}
+
+.menu_myProjects a{
+    color: beige;
+}
+
+.menu_aboutMe {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.smartphone_menu_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+}
+
+.smartphone_menu_border {
+    z-index: 1;
+}
+
+#smartphone_menu_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_menu_icon {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#go_4_lunch_img {
+    width: 50px;
+    height: 50px;
+}
+
+#go_4_lunch_title {
+    color: beige;
+    text-decoration-style: double;
+}
+
+#real_estate_manager_img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#real_estate_title {
+    margin-left: 20px;
+    color: beige;
+}
