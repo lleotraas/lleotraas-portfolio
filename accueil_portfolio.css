@@ -2,6 +2,10 @@
     font-family: 'poppins_regular';
     src: url('fonts/poppins/Poppins-Regular.otf');
 }
+@font-face {
+    font-family: 'poppins_bold';
+    src: url('fonts/poppins/Poppins-Bold.otf');
+}
 
 body {
     background-color: whitesmoke;
@@ -10,25 +14,30 @@ body {
 /* MENU */
 #menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-family: 'poppins_regular', Arial, serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
 }
 
-.menu_home a{
-    color: black;
-}
-
-.menu_aboutMe a{
-    color: black;
+.menu_home a img{
+    width: 30px;
+    height: 30px;
 }
 
 .menu_myProjects a{
     color: black;
+    text-decoration: none;
+    border: 2px rgba(29, 35, 195) solid;
+    border-radius: 40px;
+    padding: 10px;
+    transition: background-color 2s ease-out 100ms
 }
 
-.menu_aboutMe {
-    margin-left: 20px;
-    margin-right: 20px;
+.menu_myProjects a:hover{
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
 }
 
 /* PROFILE */
@@ -40,7 +49,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin-top: 250px;
-    font-family: 'poppins_regular', Arial, serif;
+    font-family: 'poppins_bold', Arial, serif;
 }
 
 .profile_subtitle {
