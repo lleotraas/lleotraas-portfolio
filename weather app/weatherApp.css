@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(20, 19, 19);
+    background-image: url("../image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+/* MENU */
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_home a{
+    color: beige;
+}
+
+.menu_aboutMe a{
+    color: beige;
+}
+
+.menu_myProjects a{
+    color: beige;
+}
+
+.menu_aboutMe {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* APP MENU */
+.smartphone_menu_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+}
+
+#smartphone_menu_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_weatherApp_img {
+    width: 94%;
+    height: 83%;
+    position: absolute;
+    top: 12.4%;
+    left: 10%;
+    z-index: -1;
+}
+
+#weatherApp_img {
+    width: 100%;
+    height: 100%;
+}
+
+/* APP BEGIN WORK */
+.smartphone_begin_work_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin-top: 150px;
+}
+
+#smartphone_begin_work_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_begin_work_gif {
+    width: 94%;
+    height: 83%;
+    position: absolute;
+    top: 12.4%;
+    left: 10%;
+    z-index: -1;
+}
+
+#begin_work_gif {
+    width: 100%;
+    height: 100%;
+}
+
+/* APP END OF WORK */
+.smartphone_end_of_work_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin-top: 150px;
+}
+
+#smartphone_end_of_work_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_end_of_work_gif {
+    width: 94%;
+    height: 83%;
+    position: absolute;
+    top: 12.4%;
+    left: 10%;
+    z-index: -1;
+}
+
+#end_of_work_gif {
+    width: 100%;
+    height: 100%;
+}
