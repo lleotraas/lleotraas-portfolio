@@ -6,6 +6,7 @@ body {
     background-blend-mode: soft-light;
 }
 
+/* MENU */
 #menu {
     display: flex;
     justify-content: center;
