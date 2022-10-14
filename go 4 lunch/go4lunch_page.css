@@ -56,12 +56,11 @@ h1 {
   }
 
 /* APP MAIN MENU */
-
 .app_menu {
     display: flex;
 }
 
-@media all and (max-width: 480px)
+@media all and (max-width: 800px)
 {
     .app_menu {
         display: block;
@@ -74,6 +73,14 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_menu_container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #smartphone_menu_border_img {
@@ -112,13 +119,29 @@ h1 {
     border-radius: 10px;
   }
 
+  @media all and (max-width: 800px)
+{
+    .smartphone_menu_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        font-size: 1.3em;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px darkgrey solid;
+        border-radius: 10px;
+      }
+}
+
 /* APP LOGIN */
 
 .app_login {
     display: flex;
 }
 
-@media all and (max-width: 480px)
+@media all and (max-width: 800px)
 {
     .app_login {
         display: block;
@@ -132,6 +155,14 @@ h1 {
     min-width: 300px;
     min-height: 600px;
     margin-top: 150px;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_login_container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #smartphone_login_border_img {
@@ -170,13 +201,29 @@ h1 {
     border-radius: 10px;
   }
 
+  @media all and (max-width: 800px)
+{
+    .smartphone_login_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        font-size: 1.3em;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px darkgrey solid;
+        border-radius: 10px;
+      }
+}
+
 /* APP SCREEN */
 
 .app_screen {
     display: flex;
 }
 
-@media all and (max-width: 480px)
+@media all and (max-width: 800px)
 {
     .app_screen {
         display: block;
@@ -190,6 +237,14 @@ h1 {
     min-width: 300px;
     min-height: 600px;
     margin-top: 150px;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_screen_container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #smartphone_screen_border_img {
@@ -227,12 +282,28 @@ h1 {
     border-radius: 10px;
 }
 
+@media all and (max-width: 800px)
+{
+    .smartphone_screen_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        font-size: 1.3em;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px darkgrey solid;
+        border-radius: 10px;
+      }
+}
+
 /* APP SEARCH */
 .app_search {
     display: flex;
 }
 
-@media all and (max-width: 480px)
+@media all and (max-width: 800px)
 {
     .app_search {
         display: block;
@@ -246,6 +317,14 @@ h1 {
     min-width: 300px;
     min-height: 600px;
     margin-top: 150px;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_search_container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #smartphone_search_border_img {
@@ -284,12 +363,28 @@ h1 {
     border-radius: 10px;
 }
 
+@media all and (max-width: 800px)
+{
+    .smartphone_search_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        font-size: 1.3em;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px darkgrey solid;
+        border-radius: 10px;
+      }
+}
+
 /* APP DETAILS */
 .app_details {
     display: flex;
 }
 
-@media all and (max-width: 480px)
+@media all and (max-width: 800px)
 {
     .app_details {
         display: block;
@@ -303,6 +398,14 @@ h1 {
     min-width: 300px;
     min-height: 600px;
     margin-top: 150px;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_details_container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #smartphone_details_border_img {
@@ -341,12 +444,28 @@ h1 {
     border-radius: 10px;
 }
 
+@media all and (max-width: 800px)
+{
+    .smartphone_details_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        font-size: 1.3em;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px darkgrey solid;
+        border-radius: 10px;
+      }
+}
+
 /* APP FILTERS */
 .app_filters {
     display: flex;
 }
 
-@media all and (max-width: 480px)
+@media all and (max-width: 800px)
 {
     .app_filters {
         display: block;
@@ -360,6 +479,14 @@ h1 {
     min-width: 300px;
     min-height: 600px;
     margin-top: 150px;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_filters_container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #smartphone_filters_border_img {
@@ -397,4 +524,20 @@ h1 {
     padding-right: 20px;
     border: 1px darkgrey solid;
     border-radius: 10px;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_filters_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        font-size: 1.3em;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px darkgrey solid;
+        border-radius: 10px;
+      }
 }
