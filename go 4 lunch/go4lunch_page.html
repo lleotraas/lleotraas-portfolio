@@ -11,89 +11,177 @@
 <body>
 
     <!-- MENU -->
-<div id="menu">
+    <div id="menu">
 
-    <div class="menu_home">
-        <a href="../index.html">
-            <img src="../image/home_white_btn.png" alt="home">
-        </a>
+        <div class="menu_home">
+            <a href="../index.html">
+                <img src="../image/home_white_btn.png" alt="home">
+            </a>
+        </div>
+
+        <div class="menu_myProjects">
+            <a href="../my projects/myProjects.html">MES PROJETS</a>
+        </div>
+
     </div>
 
-    <div class="menu_myProjects">
-        <a href="../my projects/myProjects.html">MES PROJETS</a>
+    <!-- TITLE -->
+    <div class="app_title">
+        <h1>GO 4 LUNCH</h1>
+        <p>Go 4 Lunch est une application qui permet de geolocaliser les restaurants autour de l'utilisateur et de savoir où les utilisateurs souhaitent déjeuner. </p>
     </div>
-
-</div>
 
     <!-- APP MENU -->
-    <div class="smartphone_menu_container">
-        <div class="smartphone_menu_border">
-            <img id="smartphone_menu_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+    <div class="app_menu">
+
+        <div class="smartphone_menu_container">
+
+            <div class="smartphone_menu_border">
+                <img id="smartphone_menu_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+            </div>
+    
+            <div class="smartphone_go4lunch_img">
+                    <img id="go4lunch_img" src="../image/gif/go4lunch/Go4Lunch accueil.jpg" alt="accueil de go4lunch">
+            </div>
+    
         </div>
 
-        <div class="smartphone_go4lunch_img">
-                <img id="go4lunch_img" src="../image/gif/go4lunch/Go4Lunch accueil.jpg" alt="accueil de go4lunch">
+        <div class="smartphone_menu_text">
+            <h1>MENU PRINCIPAL</h1>
+            <P>Vous devez impérativement posséder un compte Google ou Facebook pour pouvoir accéder à l'application.</P>
         </div>
+
     </div>
+    
+
     <!-- APP LOGIN -->
-    <div class="smartphone_login_container">
-        <div class="smartphone_login_border">
-            <img id="smartphone_login_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+    <div class="app_login">
+    
+        <div class="smartphone_login_container">
+
+            <div class="smartphone_login_border">
+                <img id="smartphone_login_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+            </div>
+    
+            <div class="smartphone_login_gif">
+                <img id="login_gif" src="../image/gif/go4lunch/go4lunch.gif" alt="login de go4lunch">
+            </div>
+    
         </div>
 
-        <div class="smartphone_login_gif">
-            <img id="login_gif" src="../image/gif/go4lunch/go4lunch.gif" alt="login de go4lunch">
+        <div class="smartphone_login_text">
+            <h1>CONNEXION</h1>
+            <P>Une fois connecté, l'application vous amène sur la map de Google et liste jusqu'à 20 restaurants autour de vous sous forme de marqueurs rouge. Les marqueurs bleu sont les restaurants qui ont été séléctionnés par au moins un utilisateur.</P>
         </div>
 
     </div>
 
     <!-- APP SCREEN -->
-    <div class="smartphone_screen_container">
-        <div class="smartphone_screen_border">
-            <img id="smartphone_screen_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+    <div class="app_screen">
+
+        <div class="smartphone_screen_container">
+
+            <div class="smartphone_screen_border">
+                <img id="smartphone_screen_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+            </div>
+    
+            <div class="smartphone_screen_gif">
+                <img id="screen_gif" src="../image/gif/go4lunch/go4lunch1.gif" alt="tous les écrans de go4lunch">
+            </div>
+    
         </div>
 
-        <div class="smartphone_screen_gif">
-            <img id="screen_gif" src="../image/gif/go4lunch/go4lunch1.gif" alt="tous les écrans de go4lunch">
+        <div class="smartphone_screen_text">
+            <h1>LES DIFFÉRENTS ÉCRANS</h1>
+            <P>Sur l'écran principal nous pouvons naviguer sur les trois fragments "CARTE, RESTAURANTS, COLLÈGUES" grâce à ViewPager 2:</P>     
+            <ul>
+                <li>"RESTAURANT" nous affiche une liste des restaurants qui apparaissent sur la map avec différents paramètres tels que la distance qui nous sépare du restaurant, sa note (provenant de la note de google) ou si le restaurant est ouvert avec son heure de fermeture ou alors s'il est fermé avec son heure d'ouverture.</li>
+                <li>"COLLÈGUES" nous affiche tous les utilisateurs qui sont enregistrés dans l'application et le restaurant qu'ils ont choisi s'ils en ont choisi un.</li>
+            </ul>
+            <p>L'application possède aussi un Navigation Drawer avec trois boutons:</p>
+            <ul>
+                <li>"TON RESTAURANT" nous affiche dans une Dialog Box le restaurant que l'utilisateur a choisi s'il en a choisi un.</li>
+                <li>"REGLAGES" nous amène dans les options qui nous permet de désactiver les notifications ou de supprimer son compte.</li>
+                <li>"SE DECONNECTER" Permet à l'utilisateur de se déconnecter de l'application.</li>
+            </ul>
         </div>
 
     </div>
 
     <!-- APP SEARCH -->
-    <div class="smartphone_search_container">
-        <div class="smartphone_search_border">
-            <img id="smartphone_search_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+    <div class="app_search">
+
+        <div class="smartphone_search_container">
+
+            <div class="smartphone_search_border">
+                <img id="smartphone_search_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+            </div>
+    
+            <div class="smartphone_search_gif">
+                <img id="search_gif" src="../image/gif/go4lunch/go4lunch2.gif" alt="tous les écrans de go4lunch">
+            </div>
+    
         </div>
 
-        <div class="smartphone_search_gif">
-            <img id="search_gif" src="../image/gif/go4lunch/go4lunch2.gif" alt="tous les écrans de go4lunch">
+        <div class="smartphone_search_text">
+            <h1>RECHERCHE</h1>
+            <P>L'utilisateur peut effectuer une recherche de restaurant. Une auto suggestion apparait a chaque frappe de touche si la recherche aboutit. <br>
+            Une fois le restaurant trouvé et en cliquant sur la suggestion, la vue nous amène sur l'emplacement du restaurant sur la map avec un marqueur vert. L'utilisateur peut ensuite accéder aux détails du restaurants en cliquant sur le marqueur.</P>
         </div>
 
     </div>
 
     <!-- APP DETAILS -->
-    <div class="smartphone_details_container">
-        <div class="smartphone_details_border">
-            <img id="smartphone_details_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+    <div class="app_details">
+
+        <div class="smartphone_details_container">
+
+            <div class="smartphone_details_border">
+                <img id="smartphone_details_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+            </div>
+    
+            <div class="smartphone_details_gif">
+                <img id="details_gif" src="../image/gif/go4lunch/go4lunch3.gif" alt="tous les écrans de go4lunch">
+            </div>
+    
         </div>
 
-        <div class="smartphone_details_gif">
-            <img id="details_gif" src="../image/gif/go4lunch/go4lunch3.gif" alt="tous les écrans de go4lunch">
+        <div class="smartphone_details_text">
+            <h1>DÉTAILS</h1>
+            <P>L'utilisateur cliquer sur un élément de la liste de restaurant ou alors sur un marqueur de la map pour en afficher les détails. <br>
+            Ici il est possible de sélectionner le restaurant pour signaler l'endroit où l'on veut déjeuner, mettre le restaurant en favori, appeler le restaurant ou voir son site web s'il y en a un. Il est également affiché la liste des personnes qui ont sélectionné ce restaurant.</P>
         </div>
 
     </div>
 
     <!-- APP FILTERS -->
-    <div class="smartphone_filters_container">
-        <div class="smartphone_filters_border">
-            <img id="smartphone_filters_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+    <div class="app_filters">
+
+        <div class="smartphone_filters_container">
+
+            <div class="smartphone_filters_border">
+                <img id="smartphone_filters_border_img" src="../image/S6_edge_border.png" alt="smartphone border" />
+            </div>
+    
+            <div class="smartphone_filters_gif">
+                <img id="filters_gif" src="../image/gif/go4lunch/go4lunch4.gif" alt="tous les écrans de go4lunch">
+            </div>
+    
         </div>
 
-        <div class="smartphone_filters_gif">
-            <img id="filters_gif" src="../image/gif/go4lunch/go4lunch4.gif" alt="tous les écrans de go4lunch">
+        <div class="smartphone_filters_text">
+            <h1>TRI</h1>
+            <P>Quand l'utilisateur est dans la liste des restaurants, il a la possibilité de trier les restaurants de multiples façons:</P>
+            <ul>
+                <li>Par nombre d'utilisateurs intéressé.</li>
+                <li>Par la note moyenne du restaurant.</li>
+                <li>Par la distance du restaurant.</li>
+                <li>Par les restaurants mis en favori.</li>
+                <li>Par restaurant recherché.</li>
+            </ul>
         </div>
 
     </div>
-
+    
 </body>
 </html>

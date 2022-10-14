@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'poppins_regular';
+    src: url('fonts/poppins/Poppins-Regular.otf');
+}
+
 body {
     background-color: rgb(20, 19, 19);
     background-image: url("../image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
@@ -5,6 +10,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: soft-light;
+}
+
+h1 {
+    text-align: center;
 }
 
 /* MENU */
@@ -36,11 +45,35 @@ body {
     color: whitesmoke;
 }
 
+/* TITLE */
+.app_title {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.8em;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
 /* APP MAIN MENU */
+
+.app_menu {
+    display: flex;
+}
+
+@media all and (max-width: 480px)
+{
+    .app_menu {
+        display: block;
+    }
+}
+
 .smartphone_menu_container {
     position: relative;
     width: 300px;
     height: 600px;
+    min-width: 300px;
+    min-height: 600px;
 }
 
 #smartphone_menu_border_img {
@@ -65,11 +98,39 @@ body {
     height: 100%;
 }
 
+.smartphone_menu_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px darkgrey solid;
+    border-radius: 10px;
+  }
+
 /* APP LOGIN */
+
+.app_login {
+    display: flex;
+}
+
+@media all and (max-width: 480px)
+{
+    .app_login {
+        display: block;
+    }
+}
+
 .smartphone_login_container {
     position: relative;
     width: 300px;
     height: 600px;
+    min-width: 300px;
+    min-height: 600px;
     margin-top: 150px;
 }
 
@@ -95,11 +156,39 @@ body {
     height: 100%;
 }
 
+.smartphone_login_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px darkgrey solid;
+    border-radius: 10px;
+  }
+
 /* APP SCREEN */
+
+.app_screen {
+    display: flex;
+}
+
+@media all and (max-width: 480px)
+{
+    .app_screen {
+        display: block;
+    }
+}
+
 .smartphone_screen_container {
     position: relative;
     width: 300px;
     height: 600px;
+    min-width: 300px;
+    min-height: 600px;
     margin-top: 150px;
 }
 
@@ -125,11 +214,37 @@ body {
     height: 100%;
 }
 
+.smartphone_screen_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px darkgrey solid;
+    border-radius: 10px;
+}
+
 /* APP SEARCH */
+.app_search {
+    display: flex;
+}
+
+@media all and (max-width: 480px)
+{
+    .app_search {
+        display: block;
+    }
+}
+
 .smartphone_search_container {
     position: relative;
     width: 300px;
     height: 600px;
+    min-width: 300px;
+    min-height: 600px;
     margin-top: 150px;
 }
 
@@ -155,11 +270,38 @@ body {
     height: 100%;
 }
 
+.smartphone_search_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px darkgrey solid;
+    border-radius: 10px;
+}
+
 /* APP DETAILS */
+.app_details {
+    display: flex;
+}
+
+@media all and (max-width: 480px)
+{
+    .app_details {
+        display: block;
+    }
+}
+
 .smartphone_details_container {
     position: relative;
     width: 300px;
     height: 600px;
+    min-width: 300px;
+    min-height: 600px;
     margin-top: 150px;
 }
 
@@ -185,11 +327,38 @@ body {
     height: 100%;
 }
 
+.smartphone_details_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px darkgrey solid;
+    border-radius: 10px;
+}
+
 /* APP FILTERS */
+.app_filters {
+    display: flex;
+}
+
+@media all and (max-width: 480px)
+{
+    .app_filters {
+        display: block;
+    }
+}
+
 .smartphone_filters_container {
     position: relative;
     width: 300px;
     height: 600px;
+    min-width: 300px;
+    min-height: 600px;
     margin-top: 150px;
 }
 
@@ -213,4 +382,19 @@ body {
 #filters_gif {
     width: 100%;
     height: 100%;
+}
+
+.smartphone_filters_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px darkgrey solid;
+    border-radius: 10px;
 }

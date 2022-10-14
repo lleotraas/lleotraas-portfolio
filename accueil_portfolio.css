@@ -35,6 +35,14 @@ body {
     transition: background-color 2s ease-out 100ms
 }
 
+@media screen
+and (max-width: 800px)
+{
+    .menu_myProjects a {
+        font-size: smaller;
+    }
+}
+
 .menu_myProjects a:hover{
     background-color: rgba(29, 35, 195);
     color: whitesmoke;
@@ -43,18 +51,17 @@ body {
 /* PROFILE */
 .profile_container {
     margin-top: 100px;
+    font-size: 1.8em;
 }
 
 .profile_title {
     text-align: center;
-    font-size: 30px;
     margin-top: 250px;
     font-family: 'poppins_bold', Arial, serif;
 }
 
 .profile_subtitle {
     text-align: center;
-    font-size: 30px;
     font-family: 'poppins_regular', Arial, serif;
 }
 
@@ -71,6 +78,14 @@ body {
 .profile_img_rounded {
     height: 100%;
     width: auto;
+}
+
+@media screen
+and (max-width: 800px)
+{
+    .profile_container {
+        font-size: 1.3em;
+    }
 }
 
 /* BODY CONTAINER */
@@ -102,6 +117,7 @@ body {
     padding-left: 19%;
     padding-right: 19%;
     text-align: justify;
+    margin-bottom: 20%;
 }
 
 /* SKILLS */
@@ -119,23 +135,58 @@ body {
     justify-content: space-around;
 }
 
+@media screen
+and (max-width: 800px)
+{
+    .skills {
+        font-family: 'poppins_regular', Arial, serif;
+        background-color: whitesmoke;
+        position: relative;
+        top: -100px;
+        border: 1px darkgray solid;
+        border-radius: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        box-shadow: 0px 5px 5px darkgrey;
+        display: block;
+    }
+}
+
 .skills h3 {
     color: rgba(29, 35, 195);
+    text-align: center;
+}
+
+.skills ul {
+    
 }
 
 .language {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
 }
 
 .api {
     border-left: 1px darkgray solid;
     border-right: 1px darkgray solid;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
+}
+
+@media screen
+    and (max-width: 800px)
+ {
+    .api {
+        border-left: 0px darkgray solid;
+        border-right: 0px darkgray solid;
+        border-top: 1px darkgray solid;
+        border-bottom: 1px darkgray solid;
+        padding: 5%;
+    }
+
+    li {
+        margin-left: 35%;
+    }
 }
 
 .outils {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;   
 }
