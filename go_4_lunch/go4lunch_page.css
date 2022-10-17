@@ -7,10 +7,6 @@ body {
     background-color: whitesmoke;
 }
 
-h1 {
-    text-align: center;
-}
-
 /* MENU */
 #menu {
     display: flex;
@@ -40,10 +36,9 @@ h1 {
     color: whitesmoke;
 }
 
-/* TITLE */
+/* APP MAIN MENU */
 .app_title {
     font-family: 'poppins_regular', Arial, serif;
-    font-size: 1.8em;
     background-color: rgba(29, 35, 195);
     color: whitesmoke;
     border-radius: 150px;
@@ -55,7 +50,6 @@ h1 {
     top: 100px;
   }
 
-/* APP MAIN MENU */
 .app_menu {
     display: flex;
     flex-wrap: nowrap;
@@ -81,6 +75,7 @@ h1 {
     min-height: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -88,6 +83,7 @@ h1 {
     .smartphone_menu_container {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20%;
     }
 }
 
@@ -135,14 +131,12 @@ h1 {
     .smartphone_menu_text {
         font-family: 'poppins_regular', Arial, serif;
         color: whitesmoke;
-        font-size: 1.3em;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 10%;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 1px darkgrey solid;
-        border-radius: 10px;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
       }
 }
 
@@ -150,7 +144,6 @@ h1 {
 
 .app_login_title {
     font-family: 'poppins_regular', Arial, serif;
-    font-size: 1.8em;
     background-color: rgba(29, 35, 195);
     color: whitesmoke;
     border-radius: 150px;
@@ -183,6 +176,7 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
+    margin-top: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -190,6 +184,7 @@ h1 {
     .smartphone_login_container {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20%;
     }
 }
 
@@ -237,21 +232,18 @@ h1 {
     .smartphone_login_text {
         font-family: 'poppins_regular', Arial, serif;
         color: whitesmoke;
-        font-size: 1.3em;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 10%;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 1px darkgrey solid;
-        border-radius: 10px;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
       }
 }
 
 /* APP SCREEN */
 .app_screen_title {
     font-family: 'poppins_regular', Arial, serif;
-    font-size: 1.8em;
     background-color: rgba(29, 35, 195);
     color: whitesmoke;
     border-radius: 150px;
@@ -284,6 +276,7 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
+    margin-top: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -291,6 +284,7 @@ h1 {
     .smartphone_screen_container {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20%;
     }
 }
 
@@ -339,21 +333,18 @@ h1 {
     .smartphone_screen_text {
         font-family: 'poppins_regular', Arial, serif;
         color: whitesmoke;
-        font-size: 1.3em;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 10%;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 1px darkgrey solid;
-        border-radius: 10px;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
       }
 }
 
 /* APP SEARCH */
 .app_search_title {
     font-family: 'poppins_regular', Arial, serif;
-    font-size: 1.8em;
     background-color: rgba(29, 35, 195);
     color: whitesmoke;
     border-radius: 150px;
@@ -386,6 +377,7 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
+    margin-top: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -393,6 +385,7 @@ h1 {
     .smartphone_search_container {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20%;
     }
 }
 
@@ -440,21 +433,18 @@ h1 {
     .smartphone_search_text {
         font-family: 'poppins_regular', Arial, serif;
         color: whitesmoke;
-        font-size: 1.3em;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 10%;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 1px darkgrey solid;
-        border-radius: 10px;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
       }
 }
 
 /* APP DETAILS */
 .app_details_title {
     font-family: 'poppins_regular', Arial, serif;
-    font-size: 1.8em;
     background-color: rgba(29, 35, 195);
     color: whitesmoke;
     border-radius: 150px;
@@ -487,6 +477,7 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
+    margin-top: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -494,6 +485,7 @@ h1 {
     .smartphone_details_container {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20%;
     }
 }
 
@@ -541,21 +533,18 @@ h1 {
     .smartphone_details_text {
         font-family: 'poppins_regular', Arial, serif;
         color: whitesmoke;
-        font-size: 1.3em;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 10%;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 1px darkgrey solid;
-        border-radius: 10px;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
       }
 }
 
 /* APP FILTERS */
 .app_filters_title {
     font-family: 'poppins_regular', Arial, serif;
-    font-size: 1.8em;
     background-color: rgba(29, 35, 195);
     color: whitesmoke;
     border-radius: 150px;
@@ -588,6 +577,7 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
+    margin-top: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -595,6 +585,7 @@ h1 {
     .smartphone_filters_container {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20%;
     }
 }
 
@@ -642,13 +633,11 @@ h1 {
     .smartphone_filters_text {
         font-family: 'poppins_regular', Arial, serif;
         color: whitesmoke;
-        font-size: 1.3em;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 10%;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 1px darkgrey solid;
-        border-radius: 10px;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
       }
 }
