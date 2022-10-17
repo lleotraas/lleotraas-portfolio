@@ -4,12 +4,7 @@
 }
 
 body {
-    background-color: rgb(20, 19, 19);
-    background-image: url("../image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: soft-light;
+    background-color: whitesmoke;
 }
 
 h1 {
@@ -32,12 +27,12 @@ h1 {
 }
 
 .menu_myProjects a{
-    color: beige;
+    color: black;
     text-decoration: none;
     border: 2px rgba(29, 35, 195) solid;
     border-radius: 40px;
     padding: 10px;
-    transition: background-color 2s ease-out 100ms
+    transition: background-color 2s ease-out 100ms;
 }
 
 .menu_myProjects a:hover{
@@ -48,16 +43,27 @@ h1 {
 /* TITLE */
 .app_title {
     font-family: 'poppins_regular', Arial, serif;
-    color: whitesmoke;
     font-size: 1.8em;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    position: relative;
+    top: 100px;
   }
 
 /* APP MAIN MENU */
 .app_menu {
     display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(29, 35, 100);
+    border: 2px rgba(29, 35, 100) solid;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 10px;
 }
 
 @media all and (max-width: 800px)
@@ -73,6 +79,8 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media all and (max-width: 800px)
@@ -81,6 +89,11 @@ h1 {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.smartphone_menu_border {
+    position: relative;
+    z-index: 2;
 }
 
 #smartphone_menu_border_img {
@@ -97,7 +110,7 @@ h1 {
     position: absolute;
     top: 12.5%;
     left: 10%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #go4lunch_img {
@@ -107,16 +120,14 @@ h1 {
 
 .smartphone_menu_text {
     font-family: 'poppins_regular', Arial, serif;
-    color: whitesmoke;
     font-size: 1.3em;
-    margin-left: 10%;
-    margin-right: 10%;
+    color: whitesmoke;
     margin-top: auto;
     margin-bottom: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px darkgrey solid;
-    border-radius: 10px;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
   }
 
   @media all and (max-width: 800px)
@@ -137,8 +148,26 @@ h1 {
 
 /* APP LOGIN */
 
+.app_login_title {
+    font-family: 'poppins_regular', Arial, serif;
+    font-size: 1.8em;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+
 .app_login {
     display: flex;
+    background-color: rgba(29, 35, 100);
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -154,7 +183,6 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
-    margin-top: 150px;
 }
 
 @media all and (max-width: 800px)
@@ -163,6 +191,11 @@ h1 {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.smartphone_login_border {
+    position: relative;
+    z-index: 2;
 }
 
 #smartphone_login_border_img {
@@ -179,7 +212,7 @@ h1 {
     position: absolute;
     top: 10.7%;
     left: 8%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #login_gif {
@@ -191,14 +224,12 @@ h1 {
     font-family: 'poppins_regular', Arial, serif;
     color: whitesmoke;
     font-size: 1.3em;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: auto;
     margin-bottom: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px darkgrey solid;
-    border-radius: 10px;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
   }
 
   @media all and (max-width: 800px)
@@ -218,9 +249,26 @@ h1 {
 }
 
 /* APP SCREEN */
+.app_screen_title {
+    font-family: 'poppins_regular', Arial, serif;
+    font-size: 1.8em;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
 
 .app_screen {
     display: flex;
+    background-color: rgba(29, 35, 100);
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -236,7 +284,6 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
-    margin-top: 150px;
 }
 
 @media all and (max-width: 800px)
@@ -245,6 +292,11 @@ h1 {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.smartphone_screen_border {
+    position: relative;
+    z-index: 2;
 }
 
 #smartphone_screen_border_img {
@@ -261,7 +313,7 @@ h1 {
     position: absolute;
     top: 10.7%;
     left: 8%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #screen_gif {
@@ -273,14 +325,14 @@ h1 {
     font-family: 'poppins_regular', Arial, serif;
     color: whitesmoke;
     font-size: 1.3em;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px darkgrey solid;
-    border-radius: 10px;
-}
+    margin-bottom: auto;
+    padding-top: 3%;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+  }
 
 @media all and (max-width: 800px)
 {
@@ -299,8 +351,26 @@ h1 {
 }
 
 /* APP SEARCH */
+.app_search_title {
+    font-family: 'poppins_regular', Arial, serif;
+    font-size: 1.8em;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+
 .app_search {
     display: flex;
+    background-color: rgba(29, 35, 100);
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -316,7 +386,6 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
-    margin-top: 150px;
 }
 
 @media all and (max-width: 800px)
@@ -325,6 +394,11 @@ h1 {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.smartphone_search_border {
+    position: relative;
+    z-index: 2px;
 }
 
 #smartphone_search_border_img {
@@ -341,7 +415,7 @@ h1 {
     position: absolute;
     top: 10.7%;
     left: 8%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #search_gif {
@@ -353,14 +427,12 @@ h1 {
     font-family: 'poppins_regular', Arial, serif;
     color: whitesmoke;
     font-size: 1.3em;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: auto;
     margin-top: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px darkgrey solid;
-    border-radius: 10px;
+    margin-bottom: auto;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
 }
 
 @media all and (max-width: 800px)
@@ -380,8 +452,26 @@ h1 {
 }
 
 /* APP DETAILS */
+.app_details_title {
+    font-family: 'poppins_regular', Arial, serif;
+    font-size: 1.8em;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+
 .app_details {
     display: flex;
+    background-color: rgba(29, 35, 100);
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -397,7 +487,6 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
-    margin-top: 150px;
 }
 
 @media all and (max-width: 800px)
@@ -406,6 +495,11 @@ h1 {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.smartphone_details_border {
+    position: relative;
+    z-index: 2;
 }
 
 #smartphone_details_border_img {
@@ -422,7 +516,7 @@ h1 {
     position: absolute;
     top: 10.7%;
     left: 8%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #details_gif {
@@ -434,14 +528,12 @@ h1 {
     font-family: 'poppins_regular', Arial, serif;
     color: whitesmoke;
     font-size: 1.3em;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: auto;
     margin-top: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px darkgrey solid;
-    border-radius: 10px;
+    margin-bottom: auto;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
 }
 
 @media all and (max-width: 800px)
@@ -461,8 +553,26 @@ h1 {
 }
 
 /* APP FILTERS */
+.app_filters_title {
+    font-family: 'poppins_regular', Arial, serif;
+    font-size: 1.8em;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+
 .app_filters {
     display: flex;
+    background-color: rgba(29, 35, 100);
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 @media all and (max-width: 800px)
@@ -478,7 +588,6 @@ h1 {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
-    margin-top: 150px;
 }
 
 @media all and (max-width: 800px)
@@ -487,6 +596,11 @@ h1 {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.smartphone_filters_border {
+    position: relative;
+    z-index: 2;
 }
 
 #smartphone_filters_border_img {
@@ -503,7 +617,7 @@ h1 {
     position: absolute;
     top: 10.7%;
     left: 8%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #filters_gif {
@@ -515,15 +629,12 @@ h1 {
     font-family: 'poppins_regular', Arial, serif;
     color: whitesmoke;
     font-size: 1.3em;
-    
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: auto;
     margin-top: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px darkgrey solid;
-    border-radius: 10px;
+    margin-bottom: auto;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
 }
 
 @media all and (max-width: 800px)
