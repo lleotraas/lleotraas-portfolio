@@ -23,7 +23,7 @@ body {
 }
 
 .menu_myProjects a{
-    color: black solid;
+    color: rgba(29, 35, 195);
     text-decoration: none;
     border: 2px rgba(29, 35, 195) solid;
     border-radius: 40px;
