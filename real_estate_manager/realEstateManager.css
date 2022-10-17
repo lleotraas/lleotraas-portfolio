@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'poppins_regular';
+    src: url('fonts/poppins/Poppins-Regular.otf');
+}
+
 body {
     background-color: whitesmoke;
 }

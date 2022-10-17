@@ -1,10 +1,10 @@
+@font-face {
+    font-family: 'poppins_regular';
+    src: url('fonts/poppins/Poppins-Regular.otf');
+}
+
 body {
-    background-color: rgb(20, 19, 19);
-    background-image: url("../image/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: soft-light;
+    background-color: whitesmoke;
 }
 
 /* MENU */
@@ -37,10 +37,59 @@ body {
 }
 
 /* APP MENU */
+.app_menu_title {
+    font-family: 'poppins_regular', Arial, serif;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    top: 100px;
+}
+
+.app_menu {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(29, 35, 100);
+    border: 2px rgba(29, 35, 100) solid;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+}
+
+@media all and (max-width: 800px)
+{
+    .app_menu {
+        display: block;
+    }
+}
+
 .smartphone_menu_container {
     position: relative;
     width: 300px;
     height: 600px;
+    min-width: 300px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_menu_container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    }
+}
+
+.smartphone_menu_border {
+    position: relative;
+    z-index: 2;
 }
 
 #smartphone_menu_border_img {
@@ -57,7 +106,7 @@ body {
     position: absolute;
     top: 12.4%;
     left: 10%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #weatherApp_img {
@@ -65,12 +114,82 @@ body {
     height: 100%;
 }
 
+.smartphone_weatherApp_text {
+    font-family: 'poppins_regular', Arial, serif;
+    font-size: 1.3em;
+    color: whitesmoke;
+    margin-top: 10%;
+    margin-bottom: auto;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+  }
+
+  @media all and (max-width: 800px)
+{
+    .smartphone_weatherApp_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
+      }
+}
+
 /* APP BEGIN WORK */
+.app_begin_work_title {
+    font-family: 'poppins_regular', Arial, serif;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+
+.app_begin_work {
+    display: flex;
+    background-color: rgba(29, 35, 100);
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+@media all and (max-width: 800px)
+{
+    .app_begin_work {
+        display: block;
+    }
+}
+
 .smartphone_begin_work_container {
     position: relative;
     width: 300px;
     height: 600px;
-    margin-top: 150px;
+    min-width: 300px;
+    min-height: 600px;
+    margin-top: 5%;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_begin_work_container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    }
+}
+
+.smartphone_begin_work_container {
+    position: relative;
+    z-index: 2;
 }
 
 #smartphone_begin_work_border_img {
@@ -87,7 +206,7 @@ body {
     position: absolute;
     top: 12.4%;
     left: 10%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #begin_work_gif {
@@ -95,12 +214,82 @@ body {
     height: 100%;
 }
 
+.smartphone_begin_work_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_begin_work_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
+      }
+}
+
 /* APP END OF WORK */
+.app_end_of_work_title {
+    font-family: 'poppins_regular', Arial, serif;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+
+.app_end_of_work {
+    display: flex;
+    background-color: rgba(29, 35, 100);
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+@media all and (max-width: 800px)
+{
+    .app_end_of_work {
+        display: block;
+    }
+}
+
 .smartphone_end_of_work_container {
     position: relative;
     width: 300px;
     height: 600px;
-    margin-top: 150px;
+    min-width: 300px;
+    min-height: 600px;
+    margin-top: 5%;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_end_of_work_container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    }
+}
+
+.smartphone_end_of_work_border {
+    position: relative;
+    z-index: 2;
 }
 
 #smartphone_end_of_work_border_img {
@@ -117,10 +306,36 @@ body {
     position: absolute;
     top: 12.4%;
     left: 10%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #end_of_work_gif {
     width: 100%;
     height: 100%;
+}
+
+.smartphone_end_of_work_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_end_of_work_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
+      }
 }
