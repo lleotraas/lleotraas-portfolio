@@ -65,6 +65,10 @@ body {
     .app_menu {
         display: block;
     }
+
+    .app_title {
+        top: 50px;
+    }
 }
 
 .smartphone_menu_container {
@@ -76,6 +80,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_menu_container {
+        margin-top: 10%;
+    }
 }
 
 @media all and (max-width: 800px)
@@ -143,7 +156,6 @@ body {
 }
 
 /* APP LOGIN */
-
 .app_login_title {
     font-family: 'poppins_regular', Arial, serif;
     background-color: rgba(29, 35, 195);
@@ -170,6 +182,10 @@ body {
     .app_login {
         display: block;
     }
+
+    .app_login_title {
+        top: 50px;
+    }
 }
 
 .smartphone_login_container {
@@ -179,6 +195,15 @@ body {
     min-width: 300px;
     min-height: 600px;
     margin-top: 5%;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_login_container {
+        margin-top: 10%;
+    }
 }
 
 @media all and (max-width: 800px)
@@ -204,11 +229,11 @@ body {
 }
 
 .smartphone_login_gif {
-    width: 98.5%;
-    height: 86%;
+    width: 93%;
+    height: 83%;
     position: absolute;
-    top: 10.7%;
-    left: 8%;
+    top: 12.5%;
+    left: 10.5%;
     z-index: 1;
 }
 
@@ -270,6 +295,10 @@ body {
     .app_screen {
         display: block;
     }
+
+    .app_screen_title {
+        top: 50px;
+    }
 }
 
 .smartphone_screen_container {
@@ -279,6 +308,15 @@ body {
     min-width: 300px;
     min-height: 600px;
     margin-top: 5%;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_screen_container {
+        margin-top: 10%;
+    }
 }
 
 @media all and (max-width: 800px)
@@ -304,11 +342,11 @@ body {
 }
 
 .smartphone_screen_gif {
-    width: 98.5%;
-    height: 86%;
+    width: 93%;
+    height: 83%;
     position: absolute;
-    top: 10.7%;
-    left: 8%;
+    top: 12.5%;
+    left: 10.5%;
     z-index: 1;
 }
 
@@ -329,6 +367,15 @@ body {
     margin-right: 15%;
     text-align: justify;
   }
+
+  @media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_screen_text {
+        margin-top: 10%;
+    }
+}
 
 @media all and (max-width: 800px)
 {
@@ -357,6 +404,7 @@ body {
     margin-top: 100px;
     position: relative;
     top: 100px;
+    z-index: 2;
 }
 
 .app_search {
@@ -364,12 +412,18 @@ body {
     background-color: rgba(29, 35, 100);
     padding-top: 2%;
     padding-bottom: 5%;
+    position: relative;
+    z-index: 1;
 }
 
 @media all and (max-width: 800px)
 {
     .app_search {
         display: block;
+    }
+
+    .app_search_title {
+        top: 50px;
     }
 }
 
@@ -380,6 +434,15 @@ body {
     min-width: 300px;
     min-height: 600px;
     margin-top: 5%;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_search_container {
+        margin-top: 10%;
+    }
 }
 
 @media all and (max-width: 800px)
@@ -393,7 +456,7 @@ body {
 
 .smartphone_search_border {
     position: relative;
-    z-index: 2px;
+    z-index: 3px;
 }
 
 #smartphone_search_border_img {
@@ -405,15 +468,72 @@ body {
 }
 
 .smartphone_search_gif {
-    width: 98.5%;
-    height: 86%;
+    width: 93%;
+    height: 83%;
     position: absolute;
-    top: 10.7%;
-    left: 8%;
-    z-index: 1;
+    top: 12.5%;
+    left: 10.5%;
+    z-index: -1;
 }
 
 #search_gif {
+    width: 100%;
+    height: 100%;
+}
+
+.smartphone_search_list_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    min-width: 300px;
+    min-height: 600px;
+    margin-top: 5%;
+    right: 5%;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_search_list_container {
+        margin-top: 10%;
+    }
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_search_list_container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        left: 0%;
+        margin-bottom: 5%;
+    }
+}
+
+.smartphone_search_list_border {
+    position: relative;
+    z-index: 3px;
+}
+
+#smartphone_search_list_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_search_list_gif {
+    width: 93%;
+    height: 83%;
+    position: absolute;
+    top: 12.5%;
+    left: 10.5%;
+    z-index: -1;
+}
+
+#search_list_gif {
     width: 100%;
     height: 100%;
 }
@@ -428,6 +548,15 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     text-align: justify;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_search_text {
+        margin-top: 10%;
+    }
 }
 
 @media all and (max-width: 800px)
@@ -471,6 +600,10 @@ body {
     .app_details {
         display: block;
     }
+
+    .app_details_title {
+        top: 50px;
+    }
 }
 
 .smartphone_details_container {
@@ -480,6 +613,15 @@ body {
     min-width: 300px;
     min-height: 600px;
     margin-top: 5%;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_details_container {
+        margin-top: 10%;
+    }
 }
 
 @media all and (max-width: 800px)
@@ -505,15 +647,71 @@ body {
 }
 
 .smartphone_details_gif {
-    width: 98.5%;
-    height: 86%;
+    width: 93%;
+    height: 83%;
     position: absolute;
-    top: 10.7%;
-    left: 8%;
+    top: 12.5%;
+    left: 10.5%;
     z-index: 1;
 }
 
 #details_gif {
+    width: 100%;
+    height: 100%;
+}
+
+.smartphone_details_maps_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    min-width: 300px;
+    min-height: 600px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_details_maps_container {
+        margin-top: 10%;
+    }
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_details_maps_container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+}
+
+.smartphone_details_maps_border {
+    position: relative;
+    z-index: 2;
+}
+
+#smartphone_details_maps_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_details_maps_gif {
+    width: 93%;
+    height: 83%;
+    position: absolute;
+    top: 12.5%;
+    left: 10.5%;
+    z-index: 1;
+}
+
+#details_maps_gif {
     width: 100%;
     height: 100%;
 }
@@ -525,9 +723,18 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 3%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: justify;
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) 
+{
+    .smartphone_details_text {
+        margin-top: 10%;
+    }
 }
 
 @media all and (max-width: 800px)
@@ -571,6 +778,10 @@ body {
     .app_filters {
         display: block;
     }
+
+    .app_filters_title {
+        top: 50px;
+    }
 }
 
 .smartphone_filters_container {
@@ -579,7 +790,15 @@ body {
     height: 600px;
     min-width: 300px;
     min-height: 600px;
-    margin-top: 5%;
+    
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) {
+    .smartphone_filters_container {
+        margin-top: 10%;
+    }
 }
 
 @media all and (max-width: 800px)
@@ -605,11 +824,11 @@ body {
 }
 
 .smartphone_filters_gif {
-    width: 98.5%;
-    height: 86%;
+    width: 93%;
+    height: 83%;
     position: absolute;
-    top: 10.7%;
-    left: 8%;
+    top: 12.5%;
+    left: 10.5%;
     z-index: 1;
 }
 
@@ -633,6 +852,118 @@ body {
 @media all and (max-width: 800px)
 {
     .smartphone_filters_text {
+        font-family: 'poppins_regular', Arial, serif;
+        color: whitesmoke;
+        margin-top: 8%;
+        margin-bottom: auto;
+        padding-left: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
+      }
+}
+
+/* NOTIFICATION */
+.app_notification_title {
+    font-family: 'poppins_regular', Arial, serif;
+    background-color: rgba(29, 35, 195);
+    color: whitesmoke;
+    border-radius: 150px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+
+.app_notification {
+    display: flex;
+    background-color: rgba(29, 35, 100);
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+@media all and (max-width: 800px)
+{
+    .app_notification {
+        display: block;
+    }
+
+    .app_notification_title {
+        top: 50px;
+    }
+}
+
+.smartphone_notification_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    min-width: 300px;
+    min-height: 600px;
+    
+}
+
+@media all 
+and (min-width: 801px)
+and (max-width: 1280px) {
+    .smartphone_notification_container {
+        margin-top: 10%;
+    }
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_notification_container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    }
+}
+
+.smartphone_notification_border {
+position: relative;
+    z-index: 2;
+}
+
+#smartphone_notification_border_img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.smartphone_notification_gif {
+    width: 93%;
+    height: 83%;
+    position: absolute;
+    top: 12.5%;
+    left: 10.5%;
+    z-index: 1;
+}
+
+#notification_gif {
+    width: 100%;
+    height: 100%;
+}
+
+.smartphone_notification_text {
+    font-family: 'poppins_regular', Arial, serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+@media all and (max-width: 800px)
+{
+    .smartphone_notification_text {
         font-family: 'poppins_regular', Arial, serif;
         color: whitesmoke;
         margin-top: 8%;
