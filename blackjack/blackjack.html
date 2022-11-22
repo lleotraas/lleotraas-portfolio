@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blackjack.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- MENU -->
+    <div id="menu">
+
+        <div class="menu_home">
+            <a href="../index.html">
+                <img src="../image/baseline_home_black_36dp.png" alt="home">
+            </a>
+        </div>
+
+        <div class="menu_myProjects">
+            <a href="../index.html#smartphone_menu_border_img">MES PROJETS</a>
+        </div>
+
+    </div>
+
+    <!-- APP WELCOME -->
+    <div class="title">
+        <h1>BLACKJACK</h1>
+    </div>
+
+    <div class="i_and_d_container">
+
+        <div class="smartphone_container_normal">
+
+            <label>    
+                <img class="smartphone_frame" src="../image/S6_edge_border.png" alt="smartphone border" />
+                <img class="smartphone_screen_normal" src="../image/gif/blackjack/screen.gif" alt="accueil du blackjack">
+            </label>
+
+        </div>  
+
+        <div class="description">
+            <p>
+                Le blackjack est un jeu de carte. Ici je l'ai adapté en application Android, vous y retrouverez les règles traditionnelles du jeu de casino. Il est possible d'y jouer en solo ou en multijoueur avec un ami. <br>
+                Caractéristique:
+            </p>
+            <ul>
+                <li>Langage: Kotlin</li>
+                <li>Architecture: MVVM</li>
+                <li>API/Librairies:</li>
+                <ul>
+                    <li>Dagger-Hilt</li>
+                    <li>Firebase: Firestore, Oauth, Storage</li>
+                    <li>Glide</li>
+                    <li>Chart Model</li>
+                </ul>
+            </ul>
+        </div>  
+    
+    </div>
+
+    <!-- APP SOLO -->
+    <div class="title">
+        <h1>JEU SOLO</h1>
+    </div>
+
+    <div class="image_and_description_container">
+
+        <div class="description">
+            <P>Voici l'écran de jeu du blackjack où l'on peut voir la main de la banque en haut de l'écran et la main du joueur en dessous. <br>
+            Le joueur a la possibilité de: </P>
+            <ul>
+                <li>Tirer: Ajoute une carte à la main du joueur</li>
+                <li>Stopper: Passe au joueur suivant</li>
+                <li>Doubler: Double la mise du joueur engagée puis donne une seule et unique carte au joueur et passe au joueur suivant.</li>
+                <li>Splitter: Double la mise du joueur et sépare les cartes du joueur. Une carte est alors distribuée sur le 1er jeu, le joueur décide s'il veux des cartes en plus ou pas, quand le joueur passe, une carte est distribuée sur le jeu suivant. Le joueur peut posséder jusqu'a 3 jeux.</li>
+                <li>Assurer: Lorsque la banque à un AS, il est proposé au joueur de s'assurer, ce qui lui coûte la moitié de mise. Dans ce cas si la banque fait blackjack le joueur est remboursé sinon l'assurance est perdue.</li>
+            </ul>
+        </div>
+
+        <div class="multiple_smartphone_container">
+
+            <div class="smartphone_container_mini">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/S6_edge_border.png" alt="smartphone border" />
+                    <img class="smartphone_screen" src="../image/gif/blackjack/normal_play.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+            <div class="smartphone_container_mini">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/S6_edge_border.png" alt="smartphone border" />
+                    <img class="smartphone_screen" src="../image/gif/blackjack/double_play.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+            <div class="smartphone_container_mini">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/S6_edge_border.png" alt="smartphone border" />
+                    <img class="smartphone_screen" src="../image/gif/blackjack/split_play.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+            <div class="smartphone_container_mini">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/S6_edge_border.png" alt="smartphone border" />
+                    <img class="smartphone_screen" src="../image/gif/blackjack/split_double_play.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+            <div class="smartphone_container_mini">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/S6_edge_border.png" alt="smartphone border" />
+                    <img class="smartphone_screen" src="../image/gif/blackjack/split_ace_play.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- APP MULTIPLAYER -->
+    <div class="title">
+        <h1>MULTIPLAYER</h1>
+    </div>
+
+    <div class="image_and_description_container">
+
+        <div class="description">
+            <P>
+                En se connectant au mode en ligne les joueurs peuvent jouer en duo contre la banque. Il est possible de discuter au travers un chat uniquement disponible pour la partie créée. <br> br
+                Les possibilité de jeu sont les mêmes que pour le mode solo (tirer, stopper, doubler, splitter, assurer). La différence est qu'il y a un timer de 20sec pour chaques décisions que doit prendre un joueur en cours de partie. Si le temps est écoulé, le joueur passe automatiquement la main. 
+            </P>
+        </div>
+
+        <div class="multiple_smartphone_container">
+
+                <div class="double_smartphone_container">
+                    <label>
+                        <input type="checkbox">
+                        <img class="smartphone_frame" src="../image/double_S6_edge_border.png" alt="smartphone border" />
+                        <img class="double_smartphone_screen" src="../image/gif/blackjack/multi_play.gif" alt="écran de jeu du blackjack" />
+                    </label>
+                </div>
+    
+                <div class="double_smartphone_container">
+                    <label>
+                        <input type="checkbox">
+                        <img class="smartphone_frame" src="../image/double_S6_edge_border.png" alt="smartphone border" />
+                        <img class="double_smartphone_screen" src="../image/gif/blackjack/multi_split_play.gif" alt="écran de jeu du blackjack" />
+                    </label>
+                </div>
+
+        </div>
+
+        <div class="multiple_smartphone_container">
+
+            <div class="double_smartphone_container">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/double_S6_edge_border.png" alt="smartphone border" />
+                    <img class="double_smartphone_screen" src="../image/gif/blackjack/multi_player_pass.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+            <div class="double_smartphone_container">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/double_S6_edge_border.png" alt="smartphone border" />
+                    <img class="double_smartphone_screen" src="../image/gif/blackjack/mutli_chat.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PROFILE -->
+    <div class="title">
+        <h1>PROFIL</h1>
+    </div>
+
+    <div class="i_and_d_container">
+
+        <div class="smartphone_container_normal">
+
+            <label>    
+                <img class="smartphone_frame" src="../image/S6_edge_border.png" alt="smartphone border" />
+                <img class="smartphone_screen_normal" src="../image/gif/blackjack/profile.gif" alt="accueil du blackjack">
+            </label>
+
+        </div>  
+
+        <div class="description">
+            <p>
+                L'utilisateur peut personnaliser son profil en modifiant son nom visible par tout le monde et sa photo de profil. lors de la redimension de l'image, il arrive qu'elle soit tournée à 90 degrés d'où l'ajout d'un bouton permettant de tourner l'image. <br> <br>
+                Le graphique affiché représente le montant du portefeuille de l'utilisateur à chaque fin de partie.
+            </p>
+        </div>  
+    
+    </div>
+
+    <!-- CHAT -->
+    <div class="title">
+        <h1>CHAT</h1>
+    </div>
+
+    <div class="image_and_description_container">
+
+        <div class="description">
+            <P>
+                Quand les utilisateurs arrivent sur le menu principal en ligne, ils ont accés à un chat général et peuvent discuter avec toutes les personnes connectées. <br> <br>
+                Quand Deux joueurs commencent une partie ensemble, ils ont accés à un chat privé qui est créé par le jour hôte. Une fois que les deux joueurs ont quitté la partie, le chat privé est effacé.
+            </P>
+        </div>
+
+        <div class="multiple_smartphone_container">
+
+            <div class="smartphone_container_mini" id="main_chat_container">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/S6_edge_border.png" alt="smartphone border" />
+                    <img class="smartphone_screen" src="../image/gif/blackjack/main_chat.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+            <div class="double_smartphone_container">
+                <label>
+                    <input type="checkbox">
+                    <img class="smartphone_frame" src="../image/double_S6_edge_border.png" alt="smartphone border" />
+                    <img class="double_smartphone_screen" src="../image/gif/blackjack/mutli_chat.gif" alt="écran de jeu du blackjack" />
+                </label>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
