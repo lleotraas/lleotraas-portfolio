@@ -40,6 +40,10 @@ body {
     color: whitesmoke;
 }
 
+.here_link {
+    color: whitesmoke;
+}
+
 /* TITLE */
 .title {
     font-family: 'poppins_regular', Arial, serif;
